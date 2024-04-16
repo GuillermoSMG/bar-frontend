@@ -1,5 +1,8 @@
+import CatalogDisplay from "./components/displayFunction";
+
 function App() {
-  return <main className={'bg-red-500 h-[100vh] text-white gap-1'}>hola</main>;
+  return <CatalogDisplay></CatalogDisplay>;
 }
 
 export default App;
+
