@@ -1,17 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Main from './components/Main.jsx'
+import CatalogDisplay from "./components/displayFunction";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <><Main texto="bueno chau"></Main>
-    <Main texto="hola"></Main>
-    </>
-  )
+  return <CatalogDisplay></CatalogDisplay>;
 }
 
-export default App
+export default App;
+
