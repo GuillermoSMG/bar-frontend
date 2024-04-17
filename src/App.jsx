@@ -1,8 +1,7 @@
-import CatalogDisplay from "./components/displayFunction";
+import { HomePage } from './components/HomePage';
 
 function App() {
-  return <CatalogDisplay></CatalogDisplay>;
+	return <HomePage />;
 }
 
 export default App;
-
