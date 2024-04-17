@@ -1,8 +1,8 @@
 import { useGetData } from '../hooks/useGetData';
+import { API_URL } from '../consts/urls';
 
-export function HomePage({ texto }) {
-	const data = useGetData('src\\mocks\\bebidas.json');
-	console.log(data);
+export function HomePage() {
+	const data = useGetData(API_URL);
 	return (
 		<ul>
 			{data?.map(data => (
