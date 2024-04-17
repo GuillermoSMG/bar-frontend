@@ -1,9 +1,9 @@
 /* eslint-disable camelcase */
-import { API_URL } from '../consts/urls';
 
 export const useGetData = async url => {
+	console.log(url);
 	try {
-		const data = await fetch(API_URL);
+		const data = await fetch(url);
 		const dataJson = await data.json();
 		return dataJson?.map(
 			({ Id, Nombre, Grado_alcohol, Stock, Vendidos, Precio, Categoria }) => ({
@@ -17,6 +17,6 @@ export const useGetData = async url => {
 			})
 		);
 	} catch (error) {
-		throw new Error('Error searching drinks.');
+		console.log(error);
 	}
 };
