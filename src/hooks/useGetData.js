@@ -1,16 +1,11 @@
 /* eslint-disable camelcase */
-import { useEffect, useState } from 'react';
+import { API_URL } from '../consts/urls';
 
-export const useGetData = url => {
+export const useGetData = async url => {
 	try {
-		const [data, setData] = useState([]);
-		useEffect(() => {
-			fetch(`${url}`)
-				.then(res => res.json())
-				.then(res => setData(res));
-		}, [url]);
-
-		return data?.map(
+		const data = await fetch(API_URL);
+		const dataJson = await data.json();
+		return dataJson?.map(
 			({ Id, Nombre, Grado_alcohol, Stock, Vendidos, Precio, Categoria }) => ({
 				id: Id,
 				name: Nombre,
