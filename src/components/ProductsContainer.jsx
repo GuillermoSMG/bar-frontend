@@ -1,14 +1,12 @@
 import { useParams } from 'react-router-dom';
-import { API_URL } from '../consts/urls';
-import { useGetData } from '../hooks/useGetData';
+import { useFilter } from '../hooks/useFilter';
 
 export const ProductsContainer = () => {
 	const { category } = useParams();
-	const data = useGetData(API_URL);
-	const dataFiltered = data?.filter(d => d.category === category);
+	const filteredProds = useFilter(category);
 	return (
 		<ul>
-			{dataFiltered?.map(data => (
+			{filteredProds?.map(data => (
 				<li key={data.id}>
 					<h3>{data.name}</h3>
 				</li>
