@@ -11,24 +11,14 @@ export const useGetData = url => {
 		}, [url]);
 
 		return data?.map(
-			({
-				Id,
-				Nombre,
-				Grado_alcohol,
-				Stock,
-				Vendidos,
-				Precio,
-				Es_bebida,
-				Es_trago,
-			}) => ({
+			({ Id, Nombre, Grado_alcohol, Stock, Vendidos, Precio, Categoria }) => ({
 				id: Id,
 				name: Nombre,
 				alcoholic_degree: Grado_alcohol,
 				stock: Stock,
 				sold: Vendidos,
 				price: Precio,
-				beverage: Es_bebida,
-				drink: Es_trago,
+				category: Categoria,
 			})
 		);
 	} catch (error) {
