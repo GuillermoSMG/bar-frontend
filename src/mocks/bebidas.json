@@ -1,6 +1,6 @@
 [
 	{
-		"Categoria": "bebida",
+		"Categoria": "bebidas",
 		"Id": 1,
 		"Nombre": "Cerveza",
 		"Grado_alcohol": 4.5,
@@ -10,7 +10,7 @@
 		"Imagen": "../images/Cerveza.webp"
 	},
 	{
-		"Categoria": "bebida",
+		"Categoria": "bebidas",
 		"Id": 2,
 		"Nombre": "Vino tinto",
 		"Grado_alcohol": 12.5,
@@ -19,7 +19,7 @@
 		"Precio": 250
 	},
 	{
-		"Categoria": "bebida",
+		"Categoria": "bebidas",
 		"Id": 3,
 		"Nombre": "Vodka",
 		"Grado_alcohol": 40,
@@ -28,7 +28,7 @@
 		"Precio": 500
 	},
 	{
-		"Categoria": "bebida",
+		"Categoria": "bebidas",
 		"Id": 4,
 		"Nombre": "Whisky",
 		"Grado_alcohol": 43,
@@ -37,7 +37,7 @@
 		"Precio": 700
 	},
 	{
-		"Categoria": "bebida",
+		"Categoria": "bebidas",
 		"Id": 5,
 		"Nombre": "Ron",
 		"Grado_alcohol": 37.5,
@@ -46,7 +46,7 @@
 		"Precio": 450
 	},
 	{
-		"Categoria": "bebida",
+		"Categoria": "bebidas",
 		"Id": 6,
 		"Nombre": "Ginebra",
 		"Grado_alcohol": 40,
@@ -55,7 +55,7 @@
 		"Precio": 550
 	},
 	{
-		"Categoria": "gaseosa",
+		"Categoria": "refrescos",
 		"Id": 7,
 		"Nombre": "Refresco de cola",
 		"Grado_alcohol": 0,
@@ -64,7 +64,7 @@
 		"Precio": 80
 	},
 	{
-		"Categoria": "gaseosa",
+		"Categoria": "refrescos",
 		"Id": 8,
 		"Nombre": "Refresco de naranja",
 		"Grado_alcohol": 0,
@@ -73,7 +73,7 @@
 		"Precio": 90
 	},
 	{
-		"Categoria": "gaseosa",
+		"Categoria": "refrescos",
 		"Id": 9,
 		"Nombre": "Refresco de lim\u00F3n",
 		"Grado_alcohol": 0,
@@ -82,7 +82,7 @@
 		"Precio": 85
 	},
 	{
-		"Categoria": "gaseosa",
+		"Categoria": "refrescos",
 		"Id": 10,
 		"Nombre": "Refresco de uva",
 		"Grado_alcohol": 0,
@@ -91,7 +91,7 @@
 		"Precio": 95
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 11,
 		"Nombre": "Mojito",
 		"Grado_alcohol": 10,
@@ -100,7 +100,7 @@
 		"Precio": 180
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 12,
 		"Nombre": "Pi\u00F1a colada",
 		"Grado_alcohol": 12,
@@ -109,7 +109,7 @@
 		"Precio": 200
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 13,
 		"Nombre": "Margarita",
 		"Grado_alcohol": 15,
@@ -118,7 +118,7 @@
 		"Precio": 220
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 14,
 		"Nombre": "Daiquiri",
 		"Grado_alcohol": 20,
@@ -127,7 +127,7 @@
 		"Precio": 210
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 15,
 		"Nombre": "Mimosa",
 		"Grado_alcohol": 8,
@@ -136,7 +136,7 @@
 		"Precio": 170
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 16,
 		"Nombre": "Caipirinha",
 		"Grado_alcohol": 15,
@@ -145,7 +145,7 @@
 		"Precio": 190
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 17,
 		"Nombre": "Tequila Sunrise",
 		"Grado_alcohol": 12,
@@ -154,7 +154,7 @@
 		"Precio": 195
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 18,
 		"Nombre": "Bloody Mary",
 		"Grado_alcohol": 10,
@@ -163,7 +163,7 @@
 		"Precio": 185
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 19,
 		"Nombre": "Mai Tai",
 		"Grado_alcohol": 20,
@@ -172,7 +172,7 @@
 		"Precio": 230
 	},
 	{
-		"Categoria": "trago",
+		"Categoria": "tragos",
 		"Id": 20,
 		"Nombre": "Martini",
 		"Grado_alcohol": 30,
